@@ -1,0 +1,117 @@
+body {
+
+  font-family: 'Righteous', cursive;
+  color: white;
+  background-color: #000019;
+  width: 90%;
+  /* margin: auto; */
+}
+
+
+#grid {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  width: 80%;
+}
+
+header {
+  font-size: 2em;
+  width: 80%;
+  /* margin: auto; */
+}
+
+
+#pulse {
+  text-align: center;
+  font-size: 8em;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#FFD700, #DC143C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: pulsate 2.5s ease-out;
+  -webkit-animation-iteration-count: infinite;
+
+}
+
+#nav {
+  font-size: 1.9em;
+  text-align: center;
+  margin: auto;
+  margin-top: 15%;
+}
+
+a {
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+  display: block;
+  clear: both;
+}
+
+a:hover {
+  font-size: 1em;
+  background-color: dimgrey;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+#HS {
+  background-color: #000015;
+  font-size: 1.4em;
+  width: 100%;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25%;
+  text-align: center;
+  padding: 2%;
+  border: 1px solid dimgrey;
+}
+
+#GS {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    opacity: 0.0;
+  }
+
+  50% {
+    opacity: 1.0;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    opacity: 0.0;
+  }
+}
+
+#e {
+display: flex;
+justify-content:left;
+  text-align: left;
+ 
+  width: 80%;
+}
+
+nav:hover {
+  background-color: white;
+}
+nav:nth-child(1) {
+  color: red;
+}
+nav:nth-child(2) {
+  color:rgb(0, 255, 34);
+}
+nav:nth-child(3) {color: blue;}
+
+#p{color: #FFD700;}
+#ww{
+  font-size: larger;
+  /* color: white; */
+  text-align: center;
+
+}

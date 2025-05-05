@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+
+<body onload="load()" onkeydown="key()" onkeypress="num()">
+    <header id="head">
+        <div id="f1">
+            <nav onclick="send1()">The Game |</nav>
+            <nav onclick="send2()">Instructions |</nav>
+            <nav onclick="send3()">Winners |</nav>
+        </div>
+        <div id="f2">
+            <nav id="four" onclick="send4()">Sign out |</nav>
+            <nav id="five" onclick="send5()">Delete accout |</nav>
+        </div>
+
+    </header>
+    <div id="sum">
+        <span id="sc"> your score:</span> <br>
+        <span id="player">player:</span>
+    </div>
+    <div class="container">
+
+        <h1 id="s">SIMON</h1>
+        <p id="next"></p>
+        <div class="simon">
+
+            <section id="red" class="pad" onclick="put()">
+                <h3>1</h3>
+            </section>
+            <section id="green" class="pad" onclick="put()">
+                <h3>2</h3>
+            </section>
+            <section id="yellow" class="pad" onclick="put()">
+                <h3>3</h3>
+            </section>
+            <section id="blue" class="pad" onclick="put()">
+                <h3>4</h3>
+            </section>
+            <button class="display" id="display" onclick=" start()"><b>START</b>
+                <p id="l">0/0</p>
+
+            </button>
+
+        </div>
+        <audio id="click"></audio>
+        <!-- <audio src="../sounds/endLevel.mp3" id="end"></audio> -->
+        <audio src="../sounds/error.mp3" id="error"></audio>
+
+    </div>​
+    <script src="../js/game.js"></script>
+    <script src="../js/header.js"></script>
+
+</body>
+
+</html>

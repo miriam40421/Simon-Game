@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    /* font-size: xx-large; */
+    background-color: gray;
+
+}
+h1{
+    font-size: 50px;
+}
+
+#ss{
+    display: flex;
+    justify-content: center;
+
+}
+
+#ins{
+    width: 60%;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.num {
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 40px;
+    width: 40px;
+}
+div:nth-child(1){
+    background-color: red;
+}
+div:nth-child(2){
+    background-color: rgb(0, 255, 34);
+
+}
+div:nth-child(3){
+    background-color: yellow;
+
+}
+div:nth-child(4){
+    background-color: blue;
+
+}
+span{
+    font-size: 25px;
+}
