@@ -1,0 +1,43 @@
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node.js / Angular
+node_modules/
+dist/
+.angular/
+.npm/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# .NET / C#
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.dbmdl
+*.pdb
+*.sln.docstates
+
+# Secrets
+appsettings*.json
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git conflict backups
+*.orig
